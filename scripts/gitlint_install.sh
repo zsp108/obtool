@@ -104,7 +104,7 @@ if [ "$1" == "install" ]; then
 elif [ "$1" == "uninstall" ]; then
     uninstall_gitlint
 else
-    log error "未知命令。"
+    log error "未知命令，请使用 install 或 uninstall，e.g:./gitlint_install install。"
     exit 1
 fi
 
